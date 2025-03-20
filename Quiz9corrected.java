@@ -12,8 +12,13 @@ public static void main(String[] args)
 
     System.out.println("what is your age name");
 
-    int age = myObj.nextInt();
-    myObj.nextLine();
+    //String ageInput = myObj.nextLine();
+    int age = Integer.parseInt(myObj.nextLine());
+    //myObj.nextLine();
+
+    /*
+     * double double1 = Double.parseDouble(myObj.nextLine()); //convert to double
+     */
 
     System.out.println("what is your favoitre color");
 
